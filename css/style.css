@@ -1,0 +1,143 @@
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  -webkit-box-sizing:inherit;
+          box-sizing:inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4A4A4A;
+  /*font-family: 'Roboto';*/
+
+}
+.container {
+  width: 1250px;
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+ 
+}
+.item {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  color: black;
+} 
+/**********************************/
+.main-wrapper {
+  width: 850px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px grey;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+.top {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color: #60A6F6;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px grey;
+  border-radius: 10px;
+}
+.input {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border:none;
+  outline: none;
+  padding: 8px;
+  box-shadow: 0 0 10px black;
+}
+.button-add {
+  padding: 7px 15px;
+  border-radius: 10px;
+  border:none;
+  outline: none;
+  background-color: #2BF657;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px black;
+}
+.button-add:hover {
+  background-color: #CBF630;
+}
+.list {
+  display: flex;
+  margin-top: 50px;
+  background-color: #00F646;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  flex-wrap: wrap;
+}
+.item {
+  background-color: #E8F6EB;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+  word-break :break-all;
+  word-wrap:break-word;
+
+}
+.img {
+  width: 180px;
+  height: 150px;
+
+}
+.heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #F64C0E;
+  text-shadow: 0 0 2px black;
+  font-weight: bold;
+
+}
+.text {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-shadow: 0 0 3px #F6A4CE ;
+}
+.button-remove {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border:none;
+  outline: none;
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+}
+.button-remove:hover {
+  opacity: .7;
+}
